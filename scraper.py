@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup, SoupStrainer
 import sys
 import re
 
+__author__ = 'Nikal Morgan'
+
 
 def scraper(link):
     """Scrapes website for all links, email addresses, phone numbers,
